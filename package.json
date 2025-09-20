@@ -1,0 +1,48 @@
+{
+  "name": "gold_futures_real_time",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "node test-api.js",
+    "client": "node client-example.js",
+    "docs": "node docs/generate-docs.js"
+  },
+  "keywords": [
+    "gold",
+    "futures",
+    "api",
+    "real-time",
+    "trading",
+    "finance"
+  ],
+  "author": "Gold Futures API Team",
+  "license": "ISC",
+  "description": "Real-time Gold Futures API with MVC architecture, WebSocket support, and comprehensive documentation",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "chalk": "^5.6.2",
+    "cli-table3": "^0.6.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.1.5",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.18.1",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.1.10",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "winston": "^3.11.0",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  },
+  "directories": {
+    "doc": "docs"
+  }
+}
